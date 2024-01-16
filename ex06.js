@@ -3,7 +3,7 @@ function subtraction(numberOne, numberTwo) {
   return result;
 }
 
-const numberOne = Number(prompt('Digite um valor: '));
-const numberTwo = Number(prompt('Digite outro valor: '));
+const numberOne = Number(prompt('Digite um número: '));
+const numberTwo = Number(prompt('Digite outro número: '));
 
 alert(`Resultado da subtração: ${subtraction(numberOne, numberTwo)}`);
