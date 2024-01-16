@@ -1,9 +1,9 @@
-function sum() {
-  const numberOne = Number(prompt('Digite o primeiro valor da soma: '));
-  const numberTwo = Number(prompt('Digite o segundo valor da soma: '));
+function sum(numberOne, numberTwo) {
   const result = numberOne + numberTwo;
-
   return result;
 }
 
-alert(`Soma dos dois valores: ${sum()}`);
+const numberOne = Number(prompt('Digite um número: '));
+  const numberTwo = Number(prompt('Digite outro número: '));
+
+alert(`Resultado da soma: ${sum(numberOne, numberTwo)}`);
