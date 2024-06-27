@@ -4,6 +4,6 @@ function sum(numberOne, numberTwo) {
 }
 
 const numberOne = Number(prompt('Digite um número: '));
-  const numberTwo = Number(prompt('Digite outro número: '));
+const numberTwo = Number(prompt('Digite outro número: '));
 
 alert(`Resultado da soma: ${sum(numberOne, numberTwo)}`);
